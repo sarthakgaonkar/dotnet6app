@@ -6,9 +6,9 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 env:
-  SONAR_TOKEN: sqp_52808a1565d5d2816708d5b3d72c919f269e5261
-  PROJECT_NAME: demo_proj
-  SONAR_URL: http://sonar.rahulyadav.click/
+  SONAR_TOKEN: "sqp_52808a1565d5d2816708d5b3d72c919f269e5261"
+  PROJECT_NAME: "demo_proj"
+  SONAR_URL: "http://sonar.rahulyadav.click/"
 
 jobs:
   build:
